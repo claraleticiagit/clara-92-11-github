@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: rgb(85, 219, 70);
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: brown;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.topnav a:hover{
+    background-color: cornsilk;
+    color: brown;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-color: honeydew;
+    text-align: center;
+}

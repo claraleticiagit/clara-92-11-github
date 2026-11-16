@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-table {
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 5px;
+    border: 5px solid red;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+.grid-table td {
+    color: #ccff00;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform 0.2s, opacity 0.2s;
+    cursor: pointer;
+}
+
+.bg-blue {
+    background-color: #0000ff;
+}
+
+.bg-cyan {
+    background-color: #00ffff;
+}
+
+.grid-table td:hover {
+    opacity: 0.8;
+    transform: scale(0.96);
+    outline: 2px solid #ffffff;
+}
